@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: lightblue;
+    padding: 15px;
+}
+
+/* MENU */
+.menu {
+    background: red;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    color: white;
+    margin-right: 20px;
+}
+
+/* BANNER */
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.sale {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background: yellow;
+}
